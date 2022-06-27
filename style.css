@@ -1,0 +1,53 @@
+body {
+    font: 16px 'Roboto', sans-serif;
+}
+
+.main {
+    width: 500px;
+    margin: 150px auto;
+}
+
+.inputFrom{
+    width: 78%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 5px;
+    background-color: #e6e6e6;
+
+}
+
+
+.inputFrom:focus-visible{
+    border-bottom: 1px solid orange;
+    outline: none;
+}
+
+.selectFrom, .selectFrom2{
+    width: 18%;
+    font-size: 16px;
+    border: none;
+}
+
+.selectFrom, .selectFrom2:focus-visible{
+    outline: none;
+}
+
+.to {
+    margin-top: 0px;
+    display:flex;
+    float: left;
+    width: 500px;
+
+}
+
+.convertResult {
+    width: 78%;
+    padding: 5px;
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #333;
+}
+
+.selectFrom2 {
+    padding-left: 2px;
+}
